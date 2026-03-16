@@ -10,8 +10,7 @@ use Orchestra\Testbench\TestCase;
 
 class CompilesIconsTest extends TestCase
 {
-    /** @test */
-    public function it_compiles_a_single_anonymous_component()
+    public function test_it_compiles_a_single_anonymous_component()
     {
         $result = svg('heroicon-o-bell')->toHtml();
 
@@ -25,8 +24,7 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    /** @test */
-    public function it_can_add_classes_to_icons()
+    public function test_it_can_add_classes_to_icons()
     {
         $result = svg('heroicon-o-bell', 'w-6 h-6 text-gray-500')->toHtml();
 
@@ -39,8 +37,7 @@ class CompilesIconsTest extends TestCase
         $this->assertSame($expected, $result);
     }
 
-    /** @test */
-    public function it_can_add_styles_to_icons()
+    public function test_it_can_add_styles_to_icons()
     {
         $result = svg('heroicon-o-bell', ['style' => 'color: #555'])->toHtml();
 
