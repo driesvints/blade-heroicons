@@ -2,7 +2,11 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.6.0...1.x)
+## [Unreleased](https://github.com/blade-ui-kit/blade-heroicons/compare/1.7.0...1.x)
+
+## [1.7.0](https://github.com/blade-ui-kit/blade-heroicons/compare/1.6.0...1.7.0) - 2026-05-20
+
+* Support Laravel 13. by [@jeffcaulfield-morphsites](https://github.com/jeffcaulfield-morphsites) in https://github.com/driesvints/blade-heroicons/pull/61
 
 ## [1.6.0](https://github.com/blade-ui-kit/blade-heroicons/compare/1.5.0...1.6.0) - 2025-06-27
 
